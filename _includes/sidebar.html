@@ -1,14 +1,15 @@
 <div class="sidebar well">
-{{ site.description }}
+    {{ site.description }}
 </div>
 
 <div class="sidebar well">
     <h1>客官有请</h1>
     <ul>
         <li><a href="{{ site.baseurl }}/shichui.html">实锤特供</a> | <a href="{{ site.baseurl }}/youcai.html">油菜佐食</a></li>
-        <li><a href="{{ site.baseurl }}/daiyan.html">忌口清单</a> |  <a href="{{ site.baseurl }}/yaohe.html">小二吆喝</a></li>
-        <li><a href="https://www.yuegongyutu.com/forum-63-1.html">月宫玉兔</a> | <a target="_blank" href="http://bbs.tianya.cn/post-funinfo-7726050-1.shtml">天涯饼铺</a></li>
-</ul>
+        <li><a href="{{ site.baseurl }}/daiyan.html">忌口清单</a> | <a href="{{ site.baseurl }}/yaohe.html">小二吆喝</a></li>
+        <li><a href="https://www.yuegongyutu.com/forum-63-1.html">月宫玉兔</a> | <a target="_blank"
+                href="http://bbs.tianya.cn/post-funinfo-7726050-1.shtml">天涯饼铺</a></li>
+    </ul>
 </div>
 
 <div class="sidebar well">
@@ -21,15 +22,15 @@
         <li><a href="{{ site.baseurl }}/2018/11/香蜜男二受网暴情况节选">香蜜男二受网暴情况选集</a></li>
         <li><a href="{{ site.baseurl}}/2018/11/真朋友男二虚假网站事件">真朋友男二虚假网站事件</a></li>
         <li><a href="{{ site.baseurl }}/2018/11/篮球综艺WCNM事件">篮球综艺WCNM事件</a></li>
-</ul>
+    </ul>
 </div>
 
 
 <div class="sidebar well">
     <h1>新饼尝鲜</h1>
     <ul>
-        {% for post in site.posts limit:7 %}
-          <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.tag }}·{{ post.title }}</a></li>
+        {% for post in site.posts limit:10 %}
+        <li><a href="{{ site.baseurl}}{{ post.url }}">{{ post.tag }}·{{ post.title }}</a></li>
         {% endfor %}
     </ul>
 </div>
