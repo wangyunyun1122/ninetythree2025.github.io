@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>六界第一美男烧饼铺</title>
-		<description>欢迎来到邓伦团队倾力打造的年度魔幻现实主义大饼仓</description>
+		<title>三九惕龙</title>
+		<description>欢迎来到《水龙吟》（电视剧）纪实</description>
 		<link>http://localhost:4000</link>
 		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
 		

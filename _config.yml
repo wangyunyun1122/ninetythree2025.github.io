@@ -1,26 +1,26 @@
 # Jekyll configuration
 
-name: 六界第一美男烧饼铺
-description: 欢迎来到邓伦团队倾力打造的年度魔幻现实主义大饼仓
+name: 三九惕龙
+description: 九三：君子终日乾乾，夕惕若厉，无咎。
 
 # url is currently only used only for the RSS feed in feed.xml
-url: https://liujiediyimeinan.github.io/shaobingpu
+url: https://ninetythree2025.github.io
 
 # baseurl will often be '', but for a project page on gh-pages, it needs to
 # be the project name.
 # *** IMPORTANT: If your local "jekyll serve" throws errors change this to '' or
 #     run it like so: jekyll serve --baseurl=''/shaobingpu
-baseurl: 
+baseurl: ''
 
 # These can be '' to hide the Github or Gitlab nav buttons
-github: 'liujiediyimeinan/shaobingpu'
+github: ''
 gitlab: ''
 
 collections:
   authors:
 
 # Set this to your UA-# value, or '' to disable the block completely
-gaaccount: 'UA-129613266-1'
+# gaaccount: 'UA-129613266-1'
 
 # The 'comments' setting enables comments. You'll need to select either
 # disqus or isso below to choose a comment system. Individual posts can
